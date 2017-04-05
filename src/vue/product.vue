@@ -4,7 +4,7 @@
   <div class="top-con">
     <a href="#/apps" class="pro_banner"><img src="../assets/banner1.png" alt=""></a>
   </div> 
-  <div class="advert-con">
+  <div class="advert-con" id="advert" name="advert">
     <div class="container">
       <h2 class="aligncenter">为什么是我们</h2>
       <div class="row adverts-items mb60">
@@ -69,7 +69,7 @@
       </div>
     </div>
   </div>
-  <div class="service-con bk1">
+  <div class="service-con bk1" id="service" name="service">
     <div class="container">
       <h2 class="aligncenter">更多增值服务</h2>
       <div class="row solution-items">
@@ -167,19 +167,27 @@ export default {
       active:'product'
     }
   },
-  created () {
-      
-    },
-    watch: {
-      
-    },
-    methods: {
-
-    },
-    components : {
-      'nav-header' : navHeader,
-      'nav-footer' : navFooter
+  mounted(){
+    if(this.$route.query.anchor=='advert'){
+      setTimeout(function(){
+        document.getElementById('advert').scrollIntoView()
+      },50)
     }
+    if(this.$route.query.anchor=='service'){
+      setTimeout(function(){
+        document.getElementById('service').scrollIntoView()
+      },50)
+    }
+  },
+  watch: {
+    
+  },
+  methods: {
+  },
+  components : {
+    'nav-header' : navHeader,
+    'nav-footer' : navFooter
+  }
 }
 </script>
 <style lang="sass">

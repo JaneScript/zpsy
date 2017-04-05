@@ -89,7 +89,7 @@
         </p>
       </div>
     </div>
-    <a href="#/product" class="more">了解更多></a>
+    <router-link :to="{ path: 'product', query: { anchor: 'advert' }}" class="more">了解更多</router-link>
   </div>
   <div class="service-con bk1">
     <div class="container">
@@ -100,7 +100,7 @@
           <p class="p3 mt10 h80">实时扫码数据追踪服务，为企业CRM、ERP系统提供实时流通数据</p>
         </div>
         <div class="col-lg-6 col-sm-12">
-          <p class="p2">同业/混业数据与市场分析报告</p>
+          <p class="p2">混业数据与市场分析报告</p>
           <p class="p3 mt10 h80">跨地域，跨人群数据全面分析报告，展现全景数据画像</p>
         </div>
       </div>
@@ -121,10 +121,10 @@
         </div>
         <div class="col-lg-6 col-sm-12">
           <p class="p2">与世界领先的认证机构紧密合作</p>
-          <p class="p3 mt10 h80">我们将结合深入掌握的行业知识，以及对当地实际情况的理解力与洞察力，以国际标准服务中国企业，确保消费者享受到更高品质的商品。</p>
+          <p class="p3 mt10 h80">以国际标准服务中国企业，确保消费者享受到更高品质的商品。</p>
         </div>
       </div>
-      <a href="#/solution" class="more">了解更多></a>
+      <router-link :to="{ path: 'product', query: { anchor: 'service' }}" class="more">了解更多</router-link>
     </div>
   </div>
   <div class="scene-con">
@@ -250,7 +250,18 @@ export default {
     
   },
   methods: {
-
+    // proService:function(){
+    //   this.$router.push('product');
+    //   setTimeout(function(){
+    //     document.getElementById('service').scrollIntoView()
+    //   },50)
+    // },
+    // proAdvert:function(){
+    //   this.$router.push('product');
+    //   setTimeout(function(){
+    //     document.getElementById('advert').scrollIntoView()
+    //   },50)
+    // }
   },
   components : {
     'nav-header' : navHeader,

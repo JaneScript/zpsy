@@ -4,7 +4,7 @@
     <div class="solu-con">
       <div class="container">
         <h2 class="aligncenter">正品溯源二维码解决方案</h2>
-        <img src="../assets/pic3.png" alt="">
+        <img src="../assets/pic33.png" alt="">
       </div>
     </div>
     <div class="ques-con bk1">

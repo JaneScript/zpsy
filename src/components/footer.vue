@@ -14,7 +14,7 @@
         <div class="col-lg-2 col-md-2 col-sm-12 contact-div mb30">
           <p class="p5">关注我们</p>
           <div class="row mt20 pd15-hor">
-            <a class="sina">新浪微博</a>
+            <a class="sina" href="">新浪微博</a>
             <div class="weixin">
               <p>关注微信公众号</p>
               <img src="../assets/qrcode.jpg" alt="">
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-      <p class="beian">Copyright ©2013-2017 | Terms, Conditions and Privacy Policy | 京ICP备15055677号</p>
+      <p class="beian">Copyright ©2013-2017 | Terms, Conditions and Privacy Policy | 京ICP备17013961号-1</p>
     </div>
   </footer>
 </template>

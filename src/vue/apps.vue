@@ -54,7 +54,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <p class="p2">【码友交流】</p>
-          <p class="p3">买到好东西想在朋友面前炫耀？买到不好的东西想要吐槽？想跟其他人一起交流使用心得？你要的这里都有</p>
+          <p class="p3">买到好东西想在朋友面前炫耀？买到不好的东西想要吐槽？想跟其他人一起交流使用心得？你要的这里都有。</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <p class="p2">【免费福利】</p>
